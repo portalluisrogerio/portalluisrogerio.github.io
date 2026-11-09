@@ -1,0 +1,19 @@
+PORTAL ESCOLAR - COLÉGIO ESTADUAL LUÍS ROGÉRIO DE SOUZA
+
+VERSÃO 1: PROTÓTIPO FUNCIONAL LOCAL
+
+Abra index.html para testar. Para instalar como PWA, hospede em HTTPS (por exemplo, GitHub Pages).
+
+Recursos: página pública, horários, comunicados, corpo docente, programação, painel de gestão, painel do professor, cancelamento de aula com motivo pré-definido e solicitações de alteração.
+
+IMPORTANTE: Os dados ficam apenas no localStorage do navegador. Não sincronizam entre aparelhos. O login é apenas simulado e NÃO é seguro. Não use para gestão real do colégio nem insira dados pessoais reais. A versão institucional precisa de Firebase/Supabase com autenticação, banco compartilhado, regras de autorização por função, trilha de auditoria, notificações e proteção de dados.
+
+Para testar: clique Entrar > selecione o perfil. O painel de gestão pode cadastrar dados; o professor pode cancelar as próprias aulas e solicitar alterações. As alterações locais persistem no mesmo navegador.
+
+INSTALAÇÃO NO CELULAR (PWA):
+1. Publique todos os arquivos desta pasta na raiz de um repositório GitHub Pages (HTTPS).
+2. Abra o endereço do site no navegador do celular.
+3. Android/Chrome: use o botão Instalar aplicativo, quando aparecer, ou menu ⋮ > Instalar aplicativo / Adicionar à tela inicial.
+4. iPhone/Safari: Compartilhar > Adicionar à Tela de Início.
+5. A tela de senha de demonstração continua ativa. Esta senha no JavaScript NÃO é segurança real.
+OBS.: instalar não sincroniza dados entre dispositivos. Os dados continuam locais ao navegador.
